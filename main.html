@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prusa</title>
     <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;1,700&family=Poppins:wght@700&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header class="bg-[url('img/img1.png')] bg-cover h-screen bg-center">
-        <div class="flex justify-between items-center container mx-auto">
-            <div class="mt-3 lg:mt-0">
+        <div class="flex justify-between items-center container mx-auto px-8">
+            <div class="mt-3">
                 <img src="img/logo.png" alt="">
             </div>
             <div class="sm:flex head-section font-semibold hidden text-white space-x-4"> <!-- boşluk verilcek -->
@@ -20,7 +23,7 @@
                 <a href="">Referanslar</a>
                 <a href="">Projeler</a>
                 <a href="">İletişim</a>
-                <a class="flex" href="">E-Katalog <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>  <!-- icon eklenecek -->
+                <a class="flex bg-[#CEA93A] px-2 items-center" href="">E-Katalog <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>  <!-- icon eklenecek -->
                 <a href="">EN</a>
             </div>
             <a class="text-white lg:hidden" href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></a>
@@ -29,11 +32,15 @@
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 relative">
-                <img class="h-full w-full" src="img/img01.png" alt="">
-                <h1 class="absolute lg:top-24 lg:-right-10 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white">01</h1> <!--yazı tipi değişecek-->
+                <img class="h-full w-full object-cover" src="img/img01.png" alt="">
+                <h1 class="absolute lg:top-24 lg:-right-6 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white font-['Poppins']">01</h1> <!--yazı tipi değişecek-->
             </div>
-            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-10 pb-10">
-                <h1 class="lg:text-[64px] text-[32.07px] font-bold lg:mb-20 my-5"><span class="text-[#CEA93A]">/</span> HAKKIMIZDA</h1>
+            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-4 py-8">
+                <div class="flex lg:text-[64px] text-[32.07px] items-center font-bold lg:mb-20 mb-5">
+                    <div class="text-[#CEA93A]">/</div>
+                    <h1> HAKKIMIZDA</h1>
+                </div>
+                
                 <p class="text-[#505050] font-medium text-[9px] lg:text-[20px]">
                     Prusa Prekast, Kurtar İnşaat'ın deneyimine dayanan mimari ve mühendisilik tecrübelerini üretim, uygulama ve kurumsal yönetimde bir araya getirmesiyle kuruldu. Prusa Prekast ürünlerinin satış ve uygulamaları konusunda yurt içi ve yurt dışında faaliyetlerini sürdürmektedir. Prusa, müşteri memnuniyetini ön planda tutarak GRC sektöründe yenilikler katmak ve bu yönde binalardaki görselliği arttırmak amaçlı çalışmalarımıza devam etmekteyiz. Prusa Prekast olarak; nefes aldığımız mekanlarda, modern yada klasik her türlü mimari tasarımla ürettiğimiz ürünler ile 12 yıldır ilham veriyor, yapılarınızın dili ve yüzü oluyor, onlara kişilik kazandırıyoruz. Uzman kadromuzla sektöre kaliteli, özgün, yenilikçi ve sanatsal bir dokunuş ortaya koymak amacıyla yola çıktık.
                 </p>
@@ -42,7 +49,7 @@
     </section>
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="col-span-1 lg:py-24 lg:pl-28 lg:pr-20 px-10 py-10 order-last lg:order-first">
+            <div class="col-span-1 lg:py-24 lg:pl-28 lg:pr-20 px-4 py-8 order-last lg:order-first">
                 <hr class="lg:hidden mb-6 h-0.5 w-14 bg-gray-200 border-0 dark:bg-[#CEA93A]">
                  <div class="lg:flex hidden justify-between mb-12 font-medium text-[7px] lg:text-[16px]">
                     <div class="underline decoration-[#CEA93A] decoration-2 underline-offset-8">PREKAST NEDİR?</div>
@@ -53,8 +60,8 @@
                     PREKAST – GRC (Glassfibre Reinforced Concrete-Fiber Takviyeli Beton), Geleneksel cephe ve yapı malzemelerine gore oldukça fazla avantaj sağlıyor. Alkali dayanımı yüksek, cam elyaf donatısı ve polimer kimyasallar karışımı ile üretilen PREKAST (GRC) yapı malzemeleri dış hava koşullarına (güneş, yağmur, kar, don) karşı oldukça dayanıklı bununla beraber değişik fiziki koşullara, alternatiflerine göre birçok avantajı da bünyesinde barındırıyor. Öncelikle, darbe dayanımı son derece yüksek olan PREKAST (GRC) panelleri, geleneksel duvar sistemlerine göre oldukça hafiftir, esnek ve depremlere karşı yüksek direnç sağlıyor. İnorganik olması sebebiyle, böcek ve haşeratlardan etkilenmiyor, kimyasallara karşı son derece dirençli, A sınıfı yanmaz bir üründür. Değişik doku ve şekilde kalıplama ile her türlü ihtiyaca cevap verebiliyor, birçok mimari tasarıma çözüm sunuyor.
                  </p>
             </div>
-            <div class="col-span-1 bg-[#CEA93A] lg:pr-28 lg:pl-20 lg:py-20 px-10 py-10 order-first lg:order-last">
-                <div class="text-[56px] lg:text-[128px]">“</div> <!--yazı tipini değiştir-->
+            <div class="col-span-1 bg-[#CEA93A] lg:pr-28 lg:pl-20 lg:py-20 px-4 py-8 order-first lg:order-last">
+                <div class="text-[56px] lg:text-[128px] font-['Secular_One']">“</div> <!--yazı tipini değiştir-->
                 <div class="flex justify-between mb-4 font-medium lg:hidden text-black text-[7px] lg:text-[16px]">
                     <div>PREKAST NEDİR?</div>
                     <div>FİYATLANDIRMA POLİTİKAMIZ</div>
@@ -68,11 +75,14 @@
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 relative">
-                <img class="w-full h-full" src="img/img02.png" alt="">
-                <h1 class="absolute lg:top-24 lg:-right-4 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white">02</h1> <!--yazı tipi değişecek-->
+                <img class="w-full h-full object-cover" src="img/img02.png" alt="">
+                <h1 class="absolute lg:top-24 lg:-right-4 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white font-['Poppins']">02</h1> <!--yazı tipi değişecek-->
             </div>
-            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-10 pt-10">
-                <h1 class="text-[32.07px] lg:text-[64px] font-bold"><span class="text-[#CEA93A]">/</span> HİZMETLERİMİZ</h1>
+            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-4 py-8">
+                <div class="flex lg:text-[64px] text-[32.07px] items-center font-bold">
+                    <div class="text-[#CEA93A]">/</div>
+                    <h1> HİZMETLERİMİZ</h1>
+                </div>
                 <div class="text-[20.16px] lg:text-[48px] text-[#7a7a7a] font-bold lg:my-16 my-8 leading-none">
                     <h2>GFRC PREKAST</h2>
                     <h2>UHPC</h2>
@@ -85,30 +95,30 @@
         </div>
     </section>
     <section class="container mx-auto my-20 px-10 grid grid-cols-3 lg:grid-cols-6 gap-6">
-        <img class="col-span-1" src="https://via.placeholder.com/200x200" alt="">
-        <img class="col-span-1" src="img/brand2.png" alt="">
-        <img class="col-span-1" src="img/brand3.png" alt="">
-        <img class="col-span-1" src="img/brand4.png" alt="">
-        <img class="col-span-1" src="img/brand5.png" alt="">
-        <img class="col-span-1" src="img/brand6.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand1.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand2.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand3.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand4.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand5.png" alt="">
+        <img class="col-span-1 h-10 object-contain" src="img/brand6.png" alt="">
     </section>
     <section class="container mx-auto text-center my-20">
-        <div class="grid grid-cols-4 mb-10">
+        <div class="grid lg:grid-cols-4 grid-cols-2 mb-10">
             <div class="col-span-1 ">
-                <div class="text-[13.02px] lg:text-[48px] font-semibold text-[#CEB53A]">1.021</div>
-                <div class="text-[4.95px] lg:text-[18px] font-medium">Müşteri</div>
+                <div class="text-[24px] lg:text-[48px] font-semibold text-[#CEB53A]">1.021</div>
+                <div class="text-[9px] lg:text-[18px] font-medium">Müşteri</div>
             </div>
             <div class="col-span-1">
-                <div class="text-[13.02px] lg:text-[48px] font-semibold text-[#CEB53A]">2.587</div>
-                <div class="text-[4.95px] lg:text-[18px] font-medium">Tamamlanan Proje</div>
+                <div class="text-[24px] lg:text-[48px] font-semibold text-[#CEB53A]">2.587</div>
+                <div class="text-[9px] lg:text-[18px] font-medium">Tamamlanan Proje</div>
             </div> 
             <div class="col-span-1">
-                <div class="text-[13.02px] lg:text-[48px] font-semibold text-[#CEB53A]">678</div>
-                <div class="text-[4.95px] lg:text-[18px] font-medium">Referans</div>
+                <div class="text-[24px] lg:text-[48px] font-semibold text-[#CEB53A]">678</div>
+                <div class="text-[9px] lg:text-[18px] font-medium">Referans</div>
             </div>
             <div class="col-span-1">
-                <div class="text-[13.02px] lg:text-[48px] font-semibold text-[#CEB53A]">8</div>
-                <div class="text-[4.95px] lg:text-[18px] font-medium">Uluslararası Ödül</div>
+                <div class="text-[24px] lg:text-[48px] font-semibold text-[#CEB53A]">8</div>
+                <div class="text-[9px] lg:text-[18px] font-medium">Uluslararası Ödül</div>
             </div>
         </div>
         <p class="text-[#505050] font-medium text-[8px] lg:text-[20px] px-4">PRUSA PREKAST A.Ş. Ürünleri TSE belgesine sahiptir. TSE 12467, TSE Üretim yeterlilik belgesi ve CE belgelerine sahiptir. PRUSA PREKAST A.Ş. dünyadaki büyük prekast (GRC) üreticilerinin üyesi olduğu GRCA üyesidir. Ayrıca ISO 9001:2015 kalite yönetim, OHSAS 18001:2007 iş sağlığı ve güvenliği ve 14001:2015 çevre yönetim sistemi ile kalite, işsağlığı ve çevreye duyarlılığını belgelemiştir.</p>
@@ -116,12 +126,15 @@
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 relative">
-                <img class="w-full h-full" src="img/img01.png" alt="">
-                <h1 class="absolute lg:top-24 lg:-right-4 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white">03</h1> <!--yazı tipi değişecek-->
+                <img class="w-full h-full object-cover" src="img/img01.png" alt="">
+                <h1 class="absolute lg:top-24 lg:-right-6 lg:left-auto lg:text-[200px] text-[78px] top-7 left-auto right-10 font-bold text-white font-['Poppins']">03</h1> <!--yazı tipi değişecek-->
             </div>
-            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-4 my-8">
-                <h1 class="text-[64px] lg:text-[32.07px] font-bold lg:mb-20 mb-4"><span class="text-[#CEA93A]">/</span> PROJELER</h1>
-                <p class="text-[#505050] font-light text-[48px] lg:text-[20.16px] uppercase leading-none"> <!--yazı tipi değişecek-->
+            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-4 py-8">
+                <div class="flex lg:text-[64px] text-[32.07px] items-center font-bold lg:mb-20 mb-5">
+                    <div class="text-[#CEA93A]">/</div>
+                    <h1> PROJELER</h1>
+                </div>
+                <p class="text-[#7a7a7a] font-light [20.16px] lg:text-[48px] uppercase leading-none font-['JetBrains_Mono']"> <!--yazı tipi değişecek-->
                     <span class="font-medium">PRUSA PREKAST </span>2023 A Detailed Guide to Reference Architecture <span class="font-medium"> CATALOG</span>
                 </p>
             </div>
@@ -131,7 +144,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 grid grid-cols-9">
                 <div class="col-span-4">
-                    <img class="h-full w-full" src="img/office.png" alt="">
+                    <img class="h-full w-full object-cover" src="img/office.png" alt="">
                 </div>
                 <div class="col-span-5 my-auto pl-8">
                     <div class="text-[#7a7a7a] font-medium lg:mb-6 mb-2 text-[6.16px] lg:text-[16px]">27 APRIL 2022</div>   
@@ -143,7 +156,7 @@
             </div>
             <div class="col-span-1 grid grid-cols-9">
                 <div class="lg:col-span-4 col-span-5">
-                    <img class="h-full w-full order-last lg:order-first" src="img/florya.png" alt="">
+                    <img class="h-full w-full order-last lg:order-first object-cover" src="img/florya.png" alt="">
                 </div>
                 <div class="lg:col-span-5 col-span-4 my-auto pl-8 order-first lg:order-last">
                     <div class="text-[#7a7a7a] font-medium lg:mb-6 mb-2 text-[6.16px] lg:text-[16px]">13 MAR 2022</div>   
@@ -157,14 +170,14 @@
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 grid grid-cols-9">    
-                <div class="lg:col-span-4 col-span-5 my-auto pr-8 text-end order-last lg:order-first">
+                <div class="lg:col-span-4 col-span-5 my-auto pr-8 flex flex-col items-end order-last lg:order-first">
                     <div class="text-[#7a7a7a] font-medium lg:mb-6 mb-2 text-[6.16px] lg:text-[16px]">15 JUNE 2022</div>   
                     <div class="text-[9.24px] lg:text-[24px] font-medium">PALANGA</div>
                     <div class="text-[9.24px] lg:text-[24px] font-medium">HOUSE</div>
                     <hr class="lg:my-8 mt-4 lg:h-2 h-0.5 w-14 bg-gray-200 border-0 dark:bg-[#CEA93A]">
                 </div>
                 <div class="lg:col-span-5 col-span-4 order-first lg:order-last">
-                    <img class="h-full w-full" src="img/palanga.png" alt="">
+                    <img class="h-full w-full object-cover" src="img/palanga.png" alt="">
                 </div>               
             </div>
             <div class="col-span-1 grid grid-cols-9">
@@ -175,15 +188,15 @@
                     <div class="lg:my-8 mt-4 lg:h-2 h-0.5 w-14 bg-gray-200 border-0 dark:bg-[#CEA93A]"></div>
                 </div>
                 <div class="col-span-5">
-                    <img class="h-full w-full" src="img/fransiz.png" alt="">
+                    <img class="h-full w-full object-cover" src="img/fransiz.png" alt="">
                 </div>
             </div>
         </div>
     </section>
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="col-span-1 lg:py-20 lg:pl-36 lg:pr-20 order-last lg:order-first">
-                <div class="text-9xl text-center mb-0 text-[#CEA93A] ">“</div>
+            <div class="col-span-1 lg:py-20 lg:pl-36 lg:pr-20 px-4 py-8 order-last lg:order-first">
+                <div class="text-9xl text-center mb-0 text-[#CEA93A] font-['Secular_One']">“</div>
                 <div class="grid grid-cols-6 mt-0 ">
                     <div class="col-span-2 mr-6">
                         <img src="img/berkant.png" alt="">
@@ -200,7 +213,7 @@
                 </div>
             </div>
             <div class="col-span-1 bg-[#CEA93A] lg:pr-28 lg:pl-20 lg:py-20 order-first lg:order-last pt-5p pb-10 px-10">
-                <div class="text-[50px] lg:text-[128px]">“</div> <!--yazı tipini değiştir-->
+                <div class="text-[50px] lg:text-[128px] font-['Secular_One']">“</div> <!--yazı tipini değiştir-->
                 <div class="uppercase font-medium text-[12.88px] lg:text-[32px] mb-10 text-white">Mİmarlık zaman ve mekandan söz etmelİ, zamansızlık arzusuyla özleşmelİ.</div>
                 <div class="uppercase text-white font-medium text-[9px] lg:text-[20px]">- Norman Foster</div>
             </div>
@@ -209,80 +222,85 @@
     <section>
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 relative">
-                <img class="h-full w-full" src="img/img4.png" alt="">
-                <div class="absolute w-56 text-white left-28 top-24">
-                    <div class="mb-8">
+                <img class="h-full w-full object-cover" src="img/img4.png" alt="">
+                <div class="absolute lg:w-56 w-28 text-white lg:left-28 lg:top-24 left-10 top-16 text-[8px] lg:text-[20px]">
+                    <div class="lg:mb-8 mb-4">
                         <h3 class="font-bold">Ofis</h3>
                         <p>İstasyon Mah. 1421 Sk. Divan 
                             Residence A Blok Daire:43 
                             Halkalı/İSTANBUL</p>
                     </div>
-                    <div class="mb-8">
+                    <div class="lg:mb-8 mb-4">
                         <h3 class="font-bold">Fabrika</h3>
                         <p>Balabancık Mah. 14. Balabancık 
                             Sk. Mudanya/BURSA</p>
                     </div>
-                    <div class="mb-8">
+                    <div class="lg:mb-8 mb-4">
                         <h3 class="font-bold">Telefon / E-posta</h3>
                         <p>0224 224 88 90</p>
                         <p>0555 536 38 17</p>
                     </div>
-                    <div class="mb-8">
+                    <div class="lg:mb-8 mb-4">
                         <p>info@prusaprekast.com</p>
                         <p>proje@prusaprekast.com</p>
                     </div>
                 </div>
-                <h1 class="absolute lg:top-24 lg:-right-4 lg:left-auto lg:text-[200px] text-[78px] top-7 left-10 font-bold text-white">04</h1> <!--yazı tipi değişecek-->
+                <h1 class="absolute lg:top-24 lg:-right-7 lg:left-auto lg:text-[200px] text-[78px] top-7 left-auto right-10 font-bold text-white font-['Poppins']">04</h1> <!--yazı tipi değişecek-->
             </div>
-            <div class="col-span-1 pl-20 pr-28 py-24">
-                <h1 class="text-6xl font-bold mb-20"><span class="text-[#CEA93A]">/</span> İLETİŞİM</h1>
-                <p class="text-[#505050] font-medium">
+            <div class="col-span-1 lg:pl-20 lg:pr-28 lg:py-24 px-4 py-8">
+                <div class="flex lg:text-[64px] text-[32.07px] items-center font-bold lg:mb-20 mb-5">
+                    <div class="text-[#CEA93A]">/</div>
+                    <h1> İLETİŞİM</h1>
+                </div>
+                <p class="text-[#505050] font-medium text-[8px] lg:text-[20px]">
                     Soru, görüş ve önerilerinizi bizimle paylaşabilirsiniz. Mesajlarınız değerlendirilecek ve en kısa sürede sizinle iletişime geçilecektir.
                 </p>
-                <div class="text-[#505050] mt-24">
+                <div class="text-[#505050] lg:mt-24 mt-8 ">
                     <div class="flex flex-col mb-4">
-                        <label for="name">YOUR NAME</label>
-                        <input class="border w-64 border-[#CEA93A] border-x-transparent border-b-transparent" type="text"
+                        
+                        <input class="border-b border-[#CEA93A] w-64" type="text" placeholder="YOUR NAME"
                             id="name">
                     </div>
                     <div class="flex flex-col mb-4">
-                        <label for="phone">YOUR PHONE NUMBER</label>
-                        <input class="border w-64 border-[#CEA93A] border-x-transparent border-b-transparent" type="text"
+                    
+                        <input class="border-b border-[#CEA93A] w-64" type="text" placeholder="YOUR PHONE NUMBER"
                             id="phone">
                     </div>
                     <div class="flex flex-col mb-4">
-                        <label for="mail">E-MAIL</label>
-                        <input class="border w-64 border-[#CEA93A] border-x-transparent border-b-transparent" type="text"
+                     
+                        <input class="border-b border-[#CEA93A] w-64" type="text" placeholder="E-MAIL"
                             id="mail">
                     </div>
                     <div class="flex flex-col mb-4">
-                        <label for="message">MESSAGE</label>
-                        <input class="border w-64 border-[#CEA93A] border-x-transparent border-b-transparent" type="text"
+                   
+                        <input class="border-b border-[#CEA93A] w-64" type="text" placeholder="MESSAGE"
                             id="message">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="bg-black py-10 pl-28">
-        <div class="text-white font-semibold mb-1">CONNECT WITH US</div>
-        <hr class="h-0.5 w-6 bg-gray-200 border-0 dark:bg-[#CEA93A] mb-4">
+    <footer class="bg-black lg:py-10 lg:pl-28 px-4 py-8 flex lg:flex-col lg:text-[20px] text-[6px]">
+        <div>
+            <div class="text-white font-semibold mb-1 ">CONNECT WITH US</div>
+        <hr class="h-0.5 w-6 bg-gray-200 border-0 dark:bg-[#CEA93A] mb-4 flex lg:flex-col">
         <div class="text-white flex mb-16">
-            <a class="mr-4" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 30 30">
+            <a class="lg:mr-4 mr-2" href=""><svg class="lg:w-7 lg:h-7 w-3 h-3" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 30 30">
                 <path fill="#fff" d="M27.244 3.281H5.68a.936.936 0 0 0-.937.938V25.78c0 .519.419.938.937.938h21.563a.936.936 0 0 0 .937-.938V4.22a.936.936 0 0 0-.937-.938Zm-.938 21.563h-5.393v-7.201h3.047l.457-3.537h-3.504v-2.258c0-1.026.284-1.723 1.752-1.723h1.872V6.961c-.325-.044-1.436-.14-2.73-.14-2.702 0-4.55 1.649-4.55 4.675v2.607h-3.053v3.537h3.055v7.204H6.62V5.156h19.687v19.688Z"/>
               </svg></svg></a>
-            <a class="mr-4" href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 28 28">
+            <a class="lg:mr-4 mr-2" href=""><svg class="lg:w-7 lg:h-7 w-3 h-3" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 28 28">
                 <path fill="#fff" fill-rule="evenodd" d="M8.125.333C9.591.265 10.06.25 13.794.25c3.735 0 4.202.016 5.667.083 1.465.066 2.465.3 3.34.638a6.764 6.764 0 0 1 2.435 1.588c.7.686 1.24 1.516 1.585 2.433.34.875.573 1.875.64 3.338.068 1.469.083 1.936.083 5.67 0 3.735-.016 4.203-.083 5.669-.066 1.462-.3 2.462-.64 3.337a6.744 6.744 0 0 1-1.585 2.436 6.742 6.742 0 0 1-2.435 1.585c-.875.34-1.875.573-3.337.64-1.468.068-1.935.083-5.67.083s-4.203-.016-5.669-.082c-1.462-.067-2.462-.3-3.337-.64a6.745 6.745 0 0 1-2.437-1.585 6.74 6.74 0 0 1-1.586-2.436c-.339-.875-.571-1.875-.639-3.337C.06 18.201.044 17.734.044 14c0-3.735.016-4.203.082-5.668.067-1.465.3-2.465.64-3.34a6.745 6.745 0 0 1 1.587-2.434A6.74 6.74 0 0 1 4.786.97C5.661.632 6.661.4 8.124.333h.001ZM19.35 2.807c-1.45-.066-1.885-.08-5.556-.08-3.671 0-4.106.014-5.556.08-1.342.062-2.07.285-2.554.474A4.27 4.27 0 0 0 4.103 4.31a4.265 4.265 0 0 0-1.028 1.58c-.189.485-.412 1.213-.474 2.554-.066 1.45-.08 1.885-.08 5.556 0 3.671.014 4.106.08 5.556.062 1.341.285 2.069.474 2.554.22.596.571 1.137 1.028 1.581a4.26 4.26 0 0 0 1.58 1.028c.486.188 1.213.412 2.555.473 1.45.067 1.883.08 5.556.08 3.672 0 4.106-.013 5.556-.08 1.341-.06 2.069-.285 2.554-.473a4.27 4.27 0 0 0 1.581-1.028 4.269 4.269 0 0 0 1.028-1.581c.188-.485.412-1.212.473-2.554.067-1.45.08-1.885.08-5.556 0-3.671-.013-4.106-.08-5.556-.06-1.342-.285-2.069-.473-2.554a4.27 4.27 0 0 0-1.028-1.581 4.266 4.266 0 0 0-1.581-1.028c-.485-.189-1.213-.412-2.554-.474ZM12.038 18.24a4.587 4.587 0 1 0 3.301-8.558 4.587 4.587 0 0 0-3.301 8.558ZM8.796 9.002a7.067 7.067 0 1 1 9.995 9.995 7.067 7.067 0 0 1-9.995-9.995ZM22.43 7.986a1.67 1.67 0 0 0-.519-2.764 1.671 1.671 0 1 0 .519 2.764Z" clip-rule="evenodd"/>
               </svg>
               </a>
-            <a class="mr-4" href=""><svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="none" viewBox="0 0 31 30">
+            <a class="lg:mr-4 mr-2" href=""><svg class="lg:w-7 lg:h-7 w-3 h-3" xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="none" viewBox="0 0 31 30">
                 <path fill="#fff" d="M30 13.905c0-.074 0-.159-.003-.257-.003-.274-.01-.582-.016-.91a53.32 53.32 0 0 0-.143-2.774c-.097-1.222-.24-2.241-.434-3.006a4.78 4.78 0 0 0-1.165-2.112 4.474 4.474 0 0 0-2.016-1.223c-.916-.257-2.71-.416-5.234-.515-1.2-.047-2.485-.078-3.77-.094-.45-.007-.868-.01-1.243-.014h-.952c-.375.003-.793.007-1.243.014-1.285.016-2.57.047-3.77.094-2.525.102-4.321.261-5.234.515A4.469 4.469 0 0 0 2.76 4.845a4.773 4.773 0 0 0-1.164 2.113c-.198.765-.337 1.784-.434 3.006a53.297 53.297 0 0 0-.143 2.773c-.01.329-.013.637-.016.91 0 .1-.003.184-.003.258v.19c0 .074 0 .159.003.257.003.274.01.582.016.91.026.945.072 1.887.143 2.774.097 1.222.24 2.241.434 3.006.414 1.622 1.63 2.902 3.181 3.335.913.257 2.71.417 5.234.515 1.2.047 2.485.078 3.77.095.45.006.868.01 1.243.013h.952c.375-.003.793-.007 1.243-.014 1.285-.017 2.57-.047 3.77-.094 2.525-.102 4.321-.261 5.234-.515 1.55-.433 2.767-1.71 3.181-3.335.198-.765.337-1.784.434-3.006.071-.887.117-1.829.143-2.773.01-.329.012-.637.016-.91 0-.1.003-.184.003-.258v-.19Zm-2.33.176c0 .071 0 .15-.004.24-.003.265-.01.556-.016.87a47.186 47.186 0 0 1-.136 2.638c-.087 1.09-.21 1.984-.362 2.583-.2.783-.79 1.402-1.534 1.609-.68.19-2.392.342-4.72.433a140.463 140.463 0 0 1-4.935.105h-.926l-1.223-.01a140.818 140.818 0 0 1-3.713-.095c-2.327-.095-4.042-.244-4.719-.433-.744-.21-1.333-.826-1.534-1.609-.152-.599-.275-1.493-.362-2.583a51.29 51.29 0 0 1-.136-2.637c-.01-.315-.013-.61-.016-.87 0-.092-.004-.173-.004-.24v-.163c0-.071 0-.15.004-.24.003-.265.01-.556.016-.87.022-.901.068-1.802.136-2.638.087-1.09.21-1.984.362-2.583.2-.783.79-1.402 1.534-1.609.68-.19 2.392-.342 4.72-.433a140.55 140.55 0 0 1 4.935-.105h.926l1.223.01c1.266.017 2.531.048 3.713.095 2.327.095 4.042.244 4.719.433.744.21 1.333.826 1.534 1.609.152.599.275 1.493.362 2.583.068.836.11 1.737.136 2.637.01.315.013.61.016.87 0 .092.004.173.004.24v.163Zm-15.05 4.456 7.508-4.57-7.509-4.504v9.074Z"/>
               </svg>
               </a>
-            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="none" viewBox="0 0 28 24">
+            <a href=""><svg class="lg:w-7 lg:h-7 w-3 h-3" xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="none" viewBox="0 0 28 24">
                 <path fill="#fff" d="M29.01 3.171a11.66 11.66 0 0 1-3.344.917 5.837 5.837 0 0 0 2.56-3.223 11.625 11.625 0 0 1-3.697 1.413 5.825 5.825 0 0 0-9.923 5.312A16.536 16.536 0 0 1 2.604 1.505a5.82 5.82 0 0 0-.788 2.928 5.825 5.825 0 0 0 2.59 4.847 5.809 5.809 0 0 1-2.637-.729v.075a5.825 5.825 0 0 0 4.671 5.71 5.866 5.866 0 0 1-2.63.1 5.826 5.826 0 0 0 5.44 4.043 11.685 11.685 0 0 1-7.232 2.494c-.465 0-.929-.027-1.39-.081a16.47 16.47 0 0 0 8.925 2.616c10.712 0 16.568-8.873 16.568-16.568 0-.25-.006-.502-.017-.752a11.839 11.839 0 0 0 2.904-3.013l.002-.004Z"/>
               </svg>
               </a>
+        </div>
         </div>
         <p class="text-[#ffffff99] uppercase">© 2022 PRUSA PREKAST All Rights reserved. Desıgn by KIRATLI CREATIVE GROUP</p>
     </footer>
